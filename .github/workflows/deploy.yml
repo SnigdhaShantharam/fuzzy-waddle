@@ -29,8 +29,8 @@ jobs:
 
       - name: Build Jekyll
         env:
-          JEKYLL_SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-          JEKYLL_SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
         run: bundle exec jekyll build
 
       - name: Upload Pages artifact
