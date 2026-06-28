@@ -1,0 +1,8 @@
+title: Lean Canvas
+description: Anti-SaaS Custom Software Studio
+
+supabase_url: ""
+supabase_key: ""
+
+plugins:
+  - jekyll-environment-variables
